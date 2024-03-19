@@ -1,0 +1,136 @@
+{
+  "id": "20bd9223-af67-4e81-abb2-88682b76b3e2",
+  "version": "2.0",
+  "name": "fundamentus",
+  "url": "https://www.fundamentus.com.br",
+  "tests": [{
+    "id": "64f772d7-1ae9-48f4-9e61-2fe5e4b4a627",
+    "name": "case-1",
+    "commands": [{
+      "id": "1cc7b6b4-08fb-4ffb-96cc-bc53dd4599ba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b5b2d4e-ba6b-43ee-9a0a-dc39862698ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x799",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c82ecaf-6773-4f1f-89f1-1a88b7491b4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=completar",
+      "targets": [
+        ["id=completar", "id"],
+        ["name=papel", "name"],
+        ["css=#completar", "css:finder"],
+        ["xpath=//input[@id='completar']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd19c1d0-8446-4d3e-a2e1-69729c41d3a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=completar",
+      "targets": [
+        ["id=completar", "id"],
+        ["name=papel", "name"],
+        ["css=#completar", "css:finder"],
+        ["xpath=//input[@id='completar']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "WEGE3"
+    }, {
+      "id": "ef72730b-d55a-4124-853d-9db20a145bad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.home:nth-child(2)",
+      "targets": [
+        ["css=.home:nth-child(2)", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d23455f8-1cf2-4814-b13d-6fdaabd32bb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.botao",
+      "targets": [
+        ["css=.botao", "css:finder"],
+        ["xpath=//input[@value='Exibir']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8e78e76-bcc1-45b4-ae77-92ddc282b4a5",
+      "comment": "O valor do Papel deve ser WEGE3",
+      "command": "assertText",
+      "target": "css=.w35 > .txt",
+      "targets": [],
+      "value": "WEGE3"
+    }, {
+      "id": "c067a858-1b06-41b5-bd40-fc1b90721a6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=completar",
+      "targets": [
+        ["id=completar", "id"],
+        ["name=papel", "name"],
+        ["css=#completar", "css:finder"],
+        ["xpath=//input[@id='completar']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73eddca5-12df-4714-a326-707e9a43c093",
+      "comment": "",
+      "command": "type",
+      "target": "id=completar",
+      "targets": [
+        ["id=completar", "id"],
+        ["name=papel", "name"],
+        ["css=#completar", "css:finder"],
+        ["xpath=//input[@id='completar']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wege3"
+    }, {
+      "id": "db9cd2b5-e276-43de-99e7-d85d6f29f1a6",
+      "comment": "Armazenar cotação",
+      "command": "storeText",
+      "target": "css=.destaque:nth-child(4) > .txt",
+      "targets": [],
+      "value": "quotation"
+    }, {
+      "id": "145df1ce-1310-4b7c-bab4-c4f189ccd49b",
+      "comment": "Calcula se cotação > 0",
+      "command": "executeScript",
+      "target": "return parseFloat(${quotation}) > 0",
+      "targets": [],
+      "value": "quotationGreaterThanZero"
+    }, {
+      "id": "f76878ba-ba1f-49ae-be71-d0f198fb6456",
+      "comment": "Verifica cotação > 0",
+      "command": "assert",
+      "target": "quotationGreaterThanZero",
+      "targets": [],
+      "value": "true"
+    }]
+  }],
+  "suites": [{
+    "id": "b74f9e9e-db9d-46b4-9be1-5933b29212d9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64f772d7-1ae9-48f4-9e61-2fe5e4b4a627"]
+  }],
+  "urls": ["https://www.fundamentus.com.br/"],
+  "plugins": []
+}
