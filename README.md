@@ -1,6 +1,4 @@
-# aulaTestesDeSoftware
-
-Conteúdo da aula de Testes de Software do terceiro semestre de Engenharia de Software na Católica de Santa Catarina
+# Exercícios das aulas de Teste de Software do 3º semestre de Engenharia de Software na Universidade Católica de Santa Catarina
 
 ## Aplicações aula1
 Utilizei Node.js para desenvolver a API da aula1 juntamente com o Express, realizando então um teste unitário
