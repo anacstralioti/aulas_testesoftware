@@ -12,5 +12,5 @@
 <h2>Atividade prática aplicando o Spring Boot</h2>
 <p>Utilizou-se o Spring Boot junto ao IntelliJ IDEA para criação de uma aplicação que servirá para criar uma API REST, afim de disponibilizar contratos para criação de uma agenda.</p>
 
-## Tecnologias utilizadas:
-Node.js, Express, Visual Studio Code
+<h2> Tecnologias utilizadas:
+<p>Node.js, Express, VS Code</p>
