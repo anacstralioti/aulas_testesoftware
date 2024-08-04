@@ -1,16 +1,16 @@
-# Exercícios das aulas de Teste de Software do 3º semestre de Engenharia de Software na Universidade Católica de Santa Catarina
+<h1>Exercícios das aulas de Teste de Software do 3º semestre de Engenharia de Software na Universidade Católica de Santa Catarina</h1> 
 
-## Aplicações aula1
-Utilizei Node.js para desenvolver a API da aula1 juntamente com o Express, realizando então um teste unitário
+<h2>Exercícios aula 1</h2> 
+<p>Utilizou-se Node.js para desenvolver a API da aula juntamente com o Express, realizando-se então um teste unitário.</p>
 
-## Aplicações tdd - atividade prática
-Utilizei o TDD (Test Driven Development) para implementar a função Calculadora de Fatorial de forma parecida com a aplicação da aula1
+<h2>Atividade prática TDD (Test-Driven Development)</h2> 
+<p>Utilizou-se o TDD (metodologia de desenvolvimento de softwares que se baseia na escrita de testes automatizados antes de implementar o código funcional) para implementar a função Calculadora de Fatorial, de forma parecida com a aplicação da aula 1.</p>
 
-## Aplicações seleniumTestes - atividade prática
-Utilizei o Selenium para fazer um teste automatizado com a página https://www.fundamentus.com.br
+<h2>Atividade prática aplicando o Selenium</h2>
+<p>Utilizou-se o Selenium para fazer um teste automatizado com a página https://www.fundamentus.com.br.</p>
 
-## Aplicações springTeste - atividade prática
-Utilizei o Spring Boot junto ao IntelliJ IDEA para uma aplicação que servirá para criar uma API REST, afim de disponibilizar contratos para criação de uma agenda.
+<h2>Atividade prática aplicando o Spring Boot</h2>
+<p>Utilizou-se o Spring Boot junto ao IntelliJ IDEA para criação de uma aplicação que servirá para criar uma API REST, afim de disponibilizar contratos para criação de uma agenda.</p>
 
 ## Tecnologias utilizadas:
 Node.js, Express, Visual Studio Code
